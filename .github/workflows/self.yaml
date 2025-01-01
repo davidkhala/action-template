@@ -1,0 +1,9 @@
+name: self reference
+on: push
+jobs:
+    use:
+        runs-on: ubuntu-latest
+        steps:
+        - uses: ./
+        
+    
