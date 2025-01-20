@@ -2,7 +2,7 @@ name: "davidkhala/new-action"
 description: 'new action description'
 
 branding:
-  icon: 'package'
+  icon: 'package' # find one in https://haya14busa.github.io/github-action-brandings/
   color: 'purple' # one of ["white", "yellow", "blue", "green", "orange", "red", "purple", "gray-dark"]
 inputs:
   tests:
