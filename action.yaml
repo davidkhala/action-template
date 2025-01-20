@@ -3,7 +3,7 @@ description: 'new action description'
 
 branding:
   icon: 'package'
-  color: 'purple'
+  color: 'purple' # one of ["white", "yellow", "blue", "green", "orange", "red", "purple", "gray-dark"]
 inputs:
   tests:
     description: 'Test Sources Root: working-directory of your tests'
