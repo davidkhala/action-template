@@ -22,9 +22,9 @@ runs:
   - if: runner.os == 'Linux'
     run: sudo apt update
     shell: bash
-  - if: runner.os == "macOS"
+  - if: runner.os == 'macOS'
     run: brew update
     shell: bash
-  - if: runner.os == "Windows"
+  - if: runner.os == 'Windows'
     run: choco upgrade chocolatey
     shell: powershell
