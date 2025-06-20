@@ -19,3 +19,12 @@ runs:
     run: echo tests
     working-directory: ${{inputs.working-directory}}
     shell: bash
+  - if: runner.os == 'Linux'
+    run: sudo apt update
+    shell: bash
+  - if: runner.os == "macOS"
+    run: brew update
+    shell: bash
+  - if: runner.os == "Windows"
+    run: choco upgrade chocolatey
+    shell: powershell
